@@ -5,6 +5,9 @@
 	<title>Home</title>
 </head>
 <body>
+
+	<a href="notice/noticeList">Notice List</a>
+	<a href="freeboard/freeboardList">FreeBoard List</a>
 <h1>
 	Hello world!  
 </h1>
