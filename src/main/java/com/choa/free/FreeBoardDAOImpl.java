@@ -67,7 +67,7 @@ public class FreeBoardDAOImpl implements BoardDAO {
 	}
 
 	@Override
-	public BoardDTO boardView(int num) throws Exception {
+	public FreeBoradDTO boardView(int num) throws Exception {
 		Connection con = dataSource.getConnection();
 		PreparedStatement st = null;
 		ResultSet rs =null;
