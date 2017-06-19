@@ -36,7 +36,7 @@ public class FreeBoardController {
 	public String freeboardView(Integer num, Model model) throws Exception {
 		BoardDTO boardDTO = freeboardService.boardView(num);
 		
-		model.addAttribute("view", boardDTO);
+		model.addAttribute("dto", boardDTO);
 		model.addAttribute("board", "freeboard");
 		
 		return "board/boardView";
